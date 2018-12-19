@@ -145,6 +145,32 @@ Each problem needs a customized data augmentation pipeline. For example, on OCR,
 #### 35) What is Turing test? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
 The Turing test is a method to test the machine’s ability to match the human level intelligence. A machine is used to challenge the human intelligence that when it passes the test, it is considered as intelligent. Yet a machine could be viewed as intelligent without sufficiently knowing about people to mimic a human.
 
+#### 36) What is Precision?  
+Precision (also called positive predictive value) is the fraction of relevant instances among the retrieved instances  
+Precision = true positive / (true positive + false positive)  
+[[src]](https://en.wikipedia.org/wiki/Precision_and_recall)
+
+#### 37) What is Recall?  
+Recall (also known as sensitivity) is the fraction of relevant instances that have been retrieved over the total amount of relevant instances.
+Recall = true positive / (true positive + false negative)  
+[[src]](https://en.wikipedia.org/wiki/Precision_and_recall)
+
+#### 38) Define F1-score. [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+It is the weighted average of precision and recall. It considers both false positive and false negative into account. It is used to measure the model’s performance.  
+F1-Score = 2 * (precision * recall) / (precision + recall)
+
+#### 39) What is cost function? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+Cost function is a scalar functions which Quantifies the error factor of the Neural Network. Lower the cost function better the Neural network. Eg: MNIST Data set to classify the image, input image is digit 2 and the Neural network wrongly predicts it to be 3
+
+#### 40) List different activation neurons or functions. [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+ - Linear Neuron
+ - Binary Threshold Neuron
+ - Stochastic Binary Neuron
+ - Sigmoid Neuron
+ - Tanh function
+ - Rectified Linear Unit (ReLU)
+
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
