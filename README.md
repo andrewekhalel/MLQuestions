@@ -170,6 +170,52 @@ Cost function is a scalar functions which Quantifies the error factor of the Neu
  - Tanh function
  - Rectified Linear Unit (ReLU)
 
+#### 41) Define Learning rate.
+Learning rate is a hyper-parameter that controls how much we are adjusting the weights of our network with respect the loss gradient. [[src](https://towardsdatascience.com/understanding-learning-rates-and-how-it-improves-performance-in-deep-learning-d0d4059c1c10)]
+
+#### 42) What is Momentum (w.r.t NN optimization)?
+Momentum lets the optimization algorithm remembers its last step, and adds some proportion of it to the current step. This way, even if the algorithm is stuck in a flat region, or a small local minimum, it can get out and continue towards the true minimum. [[src]](https://www.quora.com/What-is-the-difference-between-momentum-and-learning-rate)
+
+#### 43) What is the difference between Batch Gradient Descent and Stochastic Gradient Descent?
+Batch gradient descent computes the gradient using the whole dataset. This is great for convex, or relatively smooth error manifolds. In this case, we move somewhat directly towards an optimum solution, either local or global. Additionally, batch gradient descent, given an annealed learning rate, will eventually find the minimum located in it's basin of attraction.
+
+Stochastic gradient descent (SGD) computes the gradient using a single sample. SGD works well (Not well, I suppose, but better than batch gradient descent) for error manifolds that have lots of local maxima/minima. In this case, the somewhat noisier gradient calculated using the reduced number of samples tends to jerk the model out of local minima into a region that hopefully is more optimal. [[src]](https://stats.stackexchange.com/questions/49528/batch-gradient-descent-versus-stochastic-gradient-descent)
+
+#### 44) Epoch vs Batch vs Iteration.
+Epoch: one forward pass and one backward pass of **all** the training examples  
+Batch: examples processed together in one pass (forward and backward)  
+Iteration: number of training examples / Batch size  
+
+#### 45) What is vanishing gradient? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+As we add more and more hidden layers, back propagation becomes less and less useful in passing information to the lower layers. In effect, as information is passed back, the gradients begin to vanish and become small relative to the weights of the networks.
+
+#### 46) What are dropouts? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+Long Short Term Memory – are explicitly designed to address the long term dependency problem, by maintaining a state what to remember and what to forget.
+
+#### 47) Define LSTM. [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+As we add more and more hidden layers, back propagation becomes less and less useful in passing information to the lower layers. In effect, as information is passed back, the gradients begin to vanish and become small relative to the weights of the networks.
+
+#### 48) List the key components of LSTM. [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+ - Gates (forget, Memory, update & Read)
+ - tanh(x) (values between -1 to 1)
+ - Sigmoid(x) (values between 0 to 1)
+
+#### 49) List the variants of RNN. [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+ - LSTM: Long Short Term Memory
+ - GRU: Gated Recurrent Unit
+ - End to End Network
+ - Memory Network
+
+#### 50) What is Autoencoder, name few applications. [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+Auto encoder is basically used to learn a compressed form of given data. Few applications include
+ - Data denoising
+ - Dimensionality reduction
+ - Image reconstruction
+ - Image colorization
+
+#### 51) What are the components of GAN? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
+ - Generator
+ - Discriminator
 
 ## Contributions
 Contributions are most welcomed.
