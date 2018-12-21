@@ -227,7 +227,7 @@ The ROC curve is a graphical representation of the contrast between true positiv
 Type I error is a false positive, while Type II error is a false negative. Briefly stated, Type I error means claiming something has happened when it hasn’t, while Type II error means that you claim nothing is happening when in fact something is.
 A clever way to think about this is to think of Type I error as telling a man he is pregnant, while Type II error means you tell a pregnant woman she isn’t carrying a baby.
 
-#### 55) What’s the difference between a generative and discriminative model? [src]](https://www.springboard.com/blog/machine-learning-interview-questions/)
+#### 55) What’s the difference between a generative and discriminative model? [[src]](https://www.springboard.com/blog/machine-learning-interview-questions/)
 A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
 
 ## Contributions
