@@ -230,6 +230,9 @@ A clever way to think about this is to think of Type I error as telling a man he
 #### 55) What’s the difference between a generative and discriminative model? [[src]](https://www.springboard.com/blog/machine-learning-interview-questions/)
 A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
 
+#### 56)What is Multicollinearity and how you can overcome it?
+Multicollinearity occurs when independent variables in a regression model are correlated. This correlation is a problem because independent variables should be independent. If the degree of correlation between variables is high enough, it can cause problems when you fit the model and interpret the results
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
