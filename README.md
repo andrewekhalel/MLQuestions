@@ -50,6 +50,8 @@ The obvious *disadvantage* of **ridge** regression, is model interpretability. I
 #### 13) How does [CBIR](https://www.robots.ox.ac.uk/~vgg/publications/2013/arandjelovic13/arandjelovic13.pdf) work? [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
 #### 14) How does image registration work? Sparse vs. dense [optical flow](http://www.ncorr.com/download/publications/bakerunify.pdf) and so on. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
+Image Registraction using optical flow using [[Lucas-Kanade Algorithm]](https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method), [[Horne-Shunk Algorithm]](https://en.wikipedia.org/wiki/Horn%E2%80%93Schunck_method). [[src]](https://homes.cs.washington.edu/~shapiro/EE596/notes/Optical_Flow.pdf),
+Sparse vs dense Optical flow - Sparse optical flow gives the flow vectors of some "interesting features" (say few pixels depicting the edges or corners of an object) within the frame while Dense optical flow, which gives the flow vectors of the entire frame (all pixels) - up to one flow vector per pixel. [[scr]](https://nanonets.com/blog/optical-flow/)
 
 #### 15) Describe how convolution works. What about if your inputs are grayscale vs RGB imagery? What determines the shape of the next layer? [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
