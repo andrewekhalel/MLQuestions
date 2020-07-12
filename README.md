@@ -162,7 +162,7 @@ Recall = true positive / (true positive + false negative)
 [[src]](https://en.wikipedia.org/wiki/Precision_and_recall)
 
 #### 38) Define F1-score. [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
-It is the weighted average of precision and recall. It considers both false positive and false negative into account. It is used to measure the model’s performance.  
+It is the harmonic average of precision and recall. It considers both false positive and false negative into account. It is used to measure the model’s performance.  
 F1-Score = 2 * (precision * recall) / (precision + recall)
 
 #### 39) What is cost function? [[src](https://intellipaat.com/interview-question/artificial-intelligence-interview-questions/)]
