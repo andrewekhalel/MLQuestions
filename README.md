@@ -58,6 +58,7 @@ Sparse vs dense Optical flow - Sparse optical flow gives the flow vectors of som
 #### 16) Talk me through how you would create a 3D model of an object from imagery and depth sensor measurements taken at all angles around the object. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
 #### 17) Implement SQRT(const double & x) without using any special functions, just fundamental arithmetic. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
+[[Answer]](https://en.wikipedia.org/wiki/Methods_of_computing_square_root) Babylonian method is particularly straighforward to implement
 
 #### 18) Reverse a bitstring. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
