@@ -63,6 +63,7 @@ Sparse vs dense Optical flow - Sparse optical flow gives the flow vectors of som
 #### 18) Reverse a bitstring. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
 #### 19) Implement non maximal suppression as efficiently as you can. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
+[[Basics of Non Maximak Suppression]](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c)
 
 #### 20) Reverse a linked list in place. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
