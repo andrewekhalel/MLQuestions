@@ -239,6 +239,29 @@ A clever way to think about this is to think of Type I error as telling a man he
 #### 55) What’s the difference between a generative and discriminative model? [[src]](https://www.springboard.com/blog/machine-learning-interview-questions/)
 A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
 
+#### 56) Instance-Based Versus Model-Based Learning.
+
+ - **Instance-based Learning**: The system learns the examples by heart, then generalizes to new cases using a similarity measure.
+
+ - **Model-based Learning**: Another way to generalize from a set of examples is to build a model of these examples, then use that model to make predictions. This is called model-based learning.
+[[src]](https://medium.com/@sanidhyaagrawal08/what-is-instance-based-and-model-based-learning-s1e10-8e68364ae084)
+
+
+#### 57) When to use a Label Encoding vs. One Hot Encoding?
+
+This question generally depends on your dataset and the model which you wish to apply. But still, a few points to note before choosing the right encoding technique for your model:
+
+We apply One-Hot Encoding when:
+
+- The categorical feature is not ordinal (like the countries above)
+- The number of categorical features is less so one-hot encoding can be effectively applied
+We apply Label Encoding when:
+
+- The categorical feature is ordinal (like Jr. kg, Sr. kg, Primary school, high school)
+- The number of categories is quite large as one-hot encoding can lead to high memory consumption
+
+[[src]](https://www.analyticsvidhya.com/blog/2020/03/one-hot-encoding-vs-label-encoding-using-scikit-learn/)
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
