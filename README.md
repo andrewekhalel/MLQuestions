@@ -262,6 +262,42 @@ We apply Label Encoding when:
 
 [[src]](https://www.analyticsvidhya.com/blog/2020/03/one-hot-encoding-vs-label-encoding-using-scikit-learn/)
 
+#### 58) What is the difference between LDA and PCA for dimensionality reduction?
+
+Both LDA and PCA are linear transformation techniques: LDA is a supervised whereas PCA is unsupervised – PCA ignores class labels.
+
+We can picture PCA as a technique that finds the directions of maximal variance. In contrast to PCA, LDA attempts to find a feature subspace that maximizes class separability (note that LD 2 would be a very bad linear discriminant in the figure above).
+
+Remember that LDA makes assumptions about normally distributed classes and equal class covariances. If you are interested in an empirical comparison: A. M. Martinez and A. C. Kak. PCA versus LDA. Pattern Analysis and Machine Intelligence, IEEE Transactions on, 23(2):228–233, 2001). (PCA tends to result in better classification results in an image recognition task if the number of samples for a given class was relatively small.)
+
+[[src]](https://sebastianraschka.com/faq/docs/lda-vs-pca.html)
+
+#### 59) What is t-SNE?
+
+t-Distributed Stochastic Neighbor Embedding (t-SNE) is an unsupervised, non-linear technique primarily used for data exploration and visualizing high-dimensional data. In simpler terms, t-SNE gives you a feel or intuition of how the data is arranged in a high-dimensional space. It was developed by Laurens van der Maatens and Geoffrey Hinton in 2008.
+
+[[src]](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
+
+#### 60) What is the difference between t-SNE and PCA for dimensionality reduction?
+
+The first thing to note is that PCA was developed in 1933 while t-SNE was developed in 2008. A lot has changed in the world of data science since 1933 mainly in the realm of compute and size of data. Second, PCA is a linear dimension reduction technique that seeks to maximize variance and preserves large pairwise distances. In other words, things that are different end up far apart. This can lead to poor visualization especially when dealing with non-linear manifold structures. Think of a manifold structure as any geometric shape like: cylinder, ball, curve, etc.
+
+t-SNE differs from PCA by preserving only small pairwise distances or local similarities whereas PCA is concerned with preserving large pairwise distances to maximize variance.
+
+[[src]](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
+
+#### 61) What is UMAP?
+
+UMAP (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction. UMAP is constructed from a theoretical framework based in Riemannian geometry and algebraic topology. The result is a practical scalable algorithm that applies to real world data.
+
+[[src]](https://arxiv.org/abs/1802.03426#:~:text=UMAP%20(Uniform%20Manifold%20Approximation%20and,applies%20to%20real%20world%20data.)
+
+#### 62) What is the difference between t-SNE and UMAP for dimensionality reduction?
+
+The biggest difference between the the output of UMAP when compared with t-SNE is this balance between local and global structure - UMAP is often better at preserving global structure in the final projection. This means that the inter-cluster relations are potentially more meaningful than in t-SNE. However, it's important to note that, because UMAP and t-SNE both necessarily warp the high-dimensional shape of the data when projecting to lower dimensions, any given axis or distance in lower dimensions still isn’t directly interpretable in the way of techniques such as PCA.
+
+[[src]](https://pair-code.github.io/understanding-umap/)
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
