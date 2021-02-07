@@ -56,7 +56,7 @@ Random sample consensus (RANSAC) is an iterative method to estimate parameters o
 
 #### 13) How does [CBIR](https://www.robots.ox.ac.uk/~vgg/publications/2013/arandjelovic13/arandjelovic13.pdf) work? [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
-[[Answer]]https://en.wikipedia.org/wiki/Content-based_image_retrieval
+[[Answer]](https://en.wikipedia.org/wiki/Content-based_image_retrieval)
 
 #### 14) How does image registration work? Sparse vs. dense [optical flow](http://www.ncorr.com/download/publications/bakerunify.pdf) and so on. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
@@ -288,7 +288,7 @@ t-SNE differs from PCA by preserving only small pairwise distances or local simi
 
 UMAP (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction. UMAP is constructed from a theoretical framework based in Riemannian geometry and algebraic topology. The result is a practical scalable algorithm that applies to real world data.
 
-[[src]](https://arxiv.org/abs/1802.03426#:~:text=UMAP%20(Uniform%20Manifold%20Approximation%20and,applies%20to%20real%20world%20data)
+[[src]](https://arxiv.org/abs/1802.03426#:~:text=UMAP%20)
 
 #### 62) What is the difference between t-SNE and UMAP for dimensionality reduction?
 
