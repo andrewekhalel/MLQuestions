@@ -268,8 +268,6 @@ Both LDA and PCA are linear transformation techniques: LDA is a supervised where
 
 We can picture PCA as a technique that finds the directions of maximal variance. In contrast to PCA, LDA attempts to find a feature subspace that maximizes class separability (note that LD 2 would be a very bad linear discriminant in the figure above).
 
-Remember that LDA makes assumptions about normally distributed classes and equal class covariances. If you are interested in an empirical comparison: A. M. Martinez and A. C. Kak. PCA versus LDA. Pattern Analysis and Machine Intelligence, IEEE Transactions on, 23(2):228–233, 2001). (PCA tends to result in better classification results in an image recognition task if the number of samples for a given class was relatively small.)
-
 [[src]](https://sebastianraschka.com/faq/docs/lda-vs-pca.html)
 
 #### 59) What is t-SNE?
@@ -290,7 +288,7 @@ t-SNE differs from PCA by preserving only small pairwise distances or local simi
 
 UMAP (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction. UMAP is constructed from a theoretical framework based in Riemannian geometry and algebraic topology. The result is a practical scalable algorithm that applies to real world data.
 
-[[src]](https://arxiv.org/abs/1802.03426#:~:text=UMAP%20(Uniform%20Manifold%20Approximation%20and,applies%20to%20real%20world%20data.)
+[[src]](https://arxiv.org/abs/1802.03426#:~:text=UMAP%20(Uniform%20Manifold%20Approximation%20and,applies%20to%20real%20world%20data)
 
 #### 62) What is the difference between t-SNE and UMAP for dimensionality reduction?
 
