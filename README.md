@@ -232,7 +232,7 @@ A generative model will learn categories of data while a discriminative model wi
 
 #### 56) How Random Number Generator Works, e.g. rand() function in python works?
 It generates a pseudo random number based on the seed and there are some famous algorithm, please see below link for further information on this.
-[src](https://en.wikipedia.org/wiki/Linear_congruential_generator)
+[[src]](https://en.wikipedia.org/wiki/Linear_congruential_generator)
 
 ## Contributions
 Contributions are most welcomed.
