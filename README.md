@@ -230,6 +230,10 @@ A clever way to think about this is to think of Type I error as telling a man he
 #### 55) What’s the difference between a generative and discriminative model? [[src]](https://www.springboard.com/blog/machine-learning-interview-questions/)
 A generative model will learn categories of data while a discriminative model will simply learn the distinction between different categories of data. Discriminative models will generally outperform generative models on classification tasks.
 
+#### 56) How Random Number Generator Works, e.g. rand() function in python works?
+It generates a pseudo random number based on the seed and there are some famous algorithm, please see below link for further information on this.
+[src](https://en.wikipedia.org/wiki/Linear_congruential_generator)
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
