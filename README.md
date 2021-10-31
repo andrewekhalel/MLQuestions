@@ -326,6 +326,11 @@ The biggest difference between the the output of UMAP when compared with t-SNE i
 
 [[src]](https://pair-code.github.io/understanding-umap/)
 
+#### 63) How Random Number Generator Works, e.g. rand() function in python works?
+It generates a pseudo random number based on the seed and there are some famous algorithm, please see below link for further information on this.
+[[src]](https://en.wikipedia.org/wiki/Linear_congruential_generator)
+
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
