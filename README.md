@@ -1,7 +1,7 @@
 <a href="https://www.buymeacoffee.com/khalel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 # Machine Learning Interview Questions
-A collection of technical interview questions for machine learning and computer vision engineering positions.
+A collection of technical [[interview questions](https://www.interviewbit.com/machine-learning-interview-questions)] for machine learning and computer vision engineering positions.
 
 #### 1) What's the trade-off between bias and variance? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
