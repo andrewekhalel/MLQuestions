@@ -51,10 +51,10 @@ Principal Component Analysis (PCA) is a dimensionality reduction technique used 
 
 * Computation Efficiency:
   As ReLU is a simple threshold the forward and backward path will be faster.
-* Sparsity:
-  Sparsity happens when the input of ReLU is negative. This means fewer neurons are firing ( sparse activation ) and the network is lighter. 
 * Reduced Likelihood of Vanishing Gradient:
   Gradient of ReLU is 1 for positive values and 0 for negative values.
+* Sparsity:
+  Sparsity happens when the input of ReLU is negative. This means fewer neurons are firing ( sparse activation ) and the network is lighter. 
 
 
 [[src1]](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0) [[src2]](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks)
