@@ -96,7 +96,11 @@ With this last approach, we care less about what is shown on the image but more 
 #### 14) How does image registration work? Sparse vs. dense [optical flow](http://www.ncorr.com/download/publications/bakerunify.pdf) and so on. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
 #### 15) Describe how convolution works. What about if your inputs are grayscale vs RGB imagery? What determines the shape of the next layer?[[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)] 
-In a convolutional neural network (CNN), the convolution operation is applied to the input image using a small matrix called a kernel or filter. The kernel slides over the image in small steps, called strides, and performs element-wise multiplications with the corresponding elements of the image and then sums up the results. The output of this operation is called a feature map. [[Answer]](https://dev.to/sandeepbalachandran/machine-learning-convolution-with-color-images-2p41)
+In a convolutional neural network (CNN), the convolution operation is applied to the input image using a small matrix called a kernel or filter. The kernel slides over the image in small steps, called strides, and performs element-wise multiplications with the corresponding elements of the image and then sums up the results. The output of this operation is called a feature map.
+
+When the input is RGB(or more than 3 channels) the sliding window will be a sliding cube. The shape of the next layer is determined by Kernel size, number of kernels, stride, padding, and dialation.
+
+[[src1]](https://dev.to/sandeepbalachandran/machine-learning-convolution-with-color-images-2p41)[[src2]](https://stackoverflow.com/questions/70231487/output-dimensions-of-convolution-in-pytorch)
 
 #### 16) Talk me through how you would create a 3D model of an object from imagery and depth sensor measurements taken at all angles around the object. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
