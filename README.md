@@ -49,12 +49,15 @@ Principal Component Analysis (PCA) is a dimensionality reduction technique used 
 
 #### 7) Why is ReLU better and more often used than Sigmoid in Neural Networks? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
-* Computation Efficiency: As ReLU is a simple threshold the forward and backward path will be faster.
-* Sparsity: Sparsity happens when the input of ReLU is negative. This means fewer neurons are firing ( sparse activation ) and the network is lighter. 
-* Reduced Likelihood of Vanishing Gradient: gradient of ReLU is 1 for positive values and 0 for negative values.
+* Computation Efficiency:
+  As ReLU is a simple threshold the forward and backward path will be faster.
+* Sparsity:
+  Sparsity happens when the input of ReLU is negative. This means fewer neurons are firing ( sparse activation ) and the network is lighter. 
+* Reduced Likelihood of Vanishing Gradient:
+  Gradient of ReLU is 1 for positive values and 0 for negative values.
 
 
-[[src1]](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0) [[src2]](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks)
+[[src1]](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0) [[src2]](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks)
 
 
 #### 8) Given stride S and kernel sizes  for each layer of a (1-dimensional) CNN, create a function to compute the [receptive field](https://www.quora.com/What-is-a-receptive-field-in-a-convolutional-neural-network) of a particular node in the network. This is just finding how many input nodes actually connect through to a neuron in a CNN. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
