@@ -28,7 +28,7 @@ An example of underfitting is estimating a second order polynomial(quadratic fun
 
 #### 4) How do you combat the curse of dimensionality? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
- - Manual Feature Selection
+ - Feature Selection(manual or via statistical methods)
  - Principal Component Analysis (PCA)
  - Multidimensional Scaling
  - Locally linear embedding  
