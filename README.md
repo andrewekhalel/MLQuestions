@@ -322,6 +322,7 @@ We apply One-Hot Encoding when:
 
 - The categorical feature is not ordinal (like the countries above)
 - The number of categorical features is less so one-hot encoding can be effectively applied
+
 We apply Label Encoding when:
 
 - The categorical feature is ordinal (like Jr. kg, Sr. kg, Primary school, high school)
