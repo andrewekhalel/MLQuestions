@@ -129,7 +129,11 @@ my_data.reverse()
 ```
 #### 19) Implement non maximal suppression as efficiently as you can. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
+Non-Maximum Suppression (NMS) is a technique used to eliminate multiple detections of the same object in a given image.
+To solve that first sort bounding boxes based on their scores(N LogN). Starting with the box with the highest score, remove boxes whose overlapping metric(IoU) is greater than a certain threshold.(N^2)
 
+To optimize this solution you can use special data structures to query for overlapping boxes such as R-tree or KD-tree. (N LogN)
+[[src]](https://towardsdatascience.com/non-maxima-suppression-139f7e00f0b5)
 
 #### 20) Reverse a linked list in place. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
