@@ -104,6 +104,14 @@ When the input is RGB(or more than 3 channels) the sliding window will be a slid
 
 #### 16) Talk me through how you would create a 3D model of an object from imagery and depth sensor measurements taken at all angles around the object. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
+There are two popular methods for 3D reconstruction:
+* Structure from Motion (SfM) [[src]](https://www.mathworks.com/help/vision/ug/structure-from-motion.html)
+
+* Multi-View Stereo (MVS) [[src]](https://www.youtube.com/watch?v=Zwwty2qPNs8)
+
+SfM is better suited for creating models of large scenes while MVS is better suited for creating models of small objects.
+
+
 #### 17) Implement SQRT(const double & x) without using any special functions, just fundamental arithmetic. [[src](https://www.reddit.com/r/computervision/comments/7gku4z/technical_interview_questions_in_cv/)]
 
 The taylor series can be used for this step by providing an approximation of sqrt(x):
