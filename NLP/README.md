@@ -20,7 +20,7 @@ Dependency parsing is a technique used in natural language processing to analyze
 
 There are different algorithms for dependency parsing, such as the Earley parser, the CYK parser, and the shift-reduce parser. 
 
-### 4. Name different approaches for text summarization.[[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
+### 4. Name different approaches for text summarization. [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
 There are several different approaches to text summarization, including:
 * Extractive summarization: Selects the most important sentences or phrases from the original text.
 * Abstractive summarization: Generates new sentences that capture the key concepts and themes of the original text.
@@ -29,6 +29,13 @@ There are several different approaches to text summarization, including:
 * Neural-based summarization: Uses deep neural networks to generate a summary.
 
 Each approach has its own strengths and weaknesses and the choice of the approach will depend on the specific use case and the quality of the summary desired.
+
+### 5. What approach would you use for part of speech tagging? [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
+There are a few different approaches that can be used for part-of-speech (POS) tagging, such as:
+* Rule-based tagging: using pre-defined rules to tag text
+* Statistical tagging: using statistical models to tag text
+* Hybrid tagging: Combining rule-based and statistical methods
+* Neural-based tagging: using deep neural networks to tag text
 
 
 
