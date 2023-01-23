@@ -37,5 +37,10 @@ There are a few different approaches that can be used for part-of-speech (POS) t
 * Hybrid tagging: Combining rule-based and statistical methods
 * Neural-based tagging: using deep neural networks to tag text
 
+### 6. Explain what is a n-gram model. [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
+An n-gram model is a type of statistical language model used in NLP. It is based on the idea that the probability of a word in a sentence is dependent on the probability of the n-1 preceding words, where n is the number of words in the gram.
+
+The model represents the text as a sequence of n-grams, where each n-gram is a sequence of n words. The model uses the frequency of each n-gram in a large corpus of text to estimate the probability of each word in a sentence, based on the n-1 preceding words.
+
 
 
