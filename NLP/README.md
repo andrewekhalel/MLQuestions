@@ -74,7 +74,7 @@ The Markov assumption is an important concept in the bi-gram model, it states th
 ### 11. What are the most common word embedding methods? explain each briefly. [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
 Common word embedding methods include:
 * Count-based methods: Create embeddings by counting the co-occurrence of words in a corpus. Example: Latent Semantic Analysis (LSA)
-* Prediction-based methods: Create embeddings by training a model to predict a target word based on its surrounding context. Example: Continuous Bag-of-Words (CBOW)
+* Prediction-based methods: Create embeddings by training a model to predict a target word based on its surrounding context. Example: Continuous Bag-of-Words (CBOW) and Word2Vec
 * Hybrid methods: Combine both co-occurrence and context to generate embeddings. Example: GloVe (Global Vectors for Word Representation)
 * Neural Language Model based methods: Create embeddings by training a neural network-based language model on a large corpus of text. Example: BERT (Bidirectional Encoder Representations from Transformers)
 
