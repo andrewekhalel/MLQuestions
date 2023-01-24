@@ -78,3 +78,15 @@ Common word embedding methods include:
 * Hybrid methods: Combine both co-occurrence and context to generate embeddings. Example: GloVe (Global Vectors for Word Representation)
 * Neural Language Model based methods: Create embeddings by training a neural network-based language model on a large corpus of text. Example: BERT (Bidirectional Encoder Representations from Transformers)
 
+### 12. What are the first few steps that you will take before applying an NLP algorithm to a given corpus?
+* Text pre-processing: Clean and transform the text into a format that can be processed by the model. Specific methods include: Removing special characters, lowercasing, removing stop words.
+
+* Tokenization: Break the text into individual words or phrases that can be used as input. Specific methods include: word tokenization, sentence tokenization, and n-gram tokenization.
+
+* Text normalization: Transform the text into a consistent format. Specific methods include: stemming, lemmatization.
+
+* Feature extraction: Select relevant features from the text to be used as input. Specific methods include: creating a vocabulary of the most common words in the corpus, creating a term-document matrix.
+
+* Splitting the data: Divide the data into training, validation and testing sets.
+
+* Annotating the data: Manually tag the data with relevant information. Specific methods include: POS tagging, NER tagging, and so on.
