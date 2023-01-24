@@ -68,5 +68,8 @@ $P(w_i)$ = the probability of the i-th word according to the model
 ### 9. What is Bag-of-Worrds model? [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
 The bag-of-words model is a representation of text data where a text is represented as a bag (multiset) of its words, disregarding grammar and word order but keeping track of the frequency of each word. It is simple to implement and computationally efficient, but it discards grammatical information and word order, which can be important for some NLP tasks.
 
+### 10. Explain how the Markov assumption affects the bi-gram model? [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
+The Markov assumption is an important concept in the bi-gram model, it states that the probability of a word in a sentence depends only on the preceding word. The Markov assumption simplifies the bi-gram model by reducing the number of variables that need to be considered, making the model computationally efficient, but it also limits the context that the model takes into account, which can lead to errors in the probability estimates. In practice, increasing the order of the n-gram model can be used to increase the context taken into account, thus increasing the model's accuracy.
+
 
 
