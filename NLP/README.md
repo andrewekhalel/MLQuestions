@@ -71,5 +71,10 @@ The bag-of-words model is a representation of text data where a text is represen
 ### 10. Explain how the Markov assumption affects the bi-gram model? [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
 The Markov assumption is an important concept in the bi-gram model, it states that the probability of a word in a sentence depends only on the preceding word. The Markov assumption simplifies the bi-gram model by reducing the number of variables that need to be considered, making the model computationally efficient, but it also limits the context that the model takes into account, which can lead to errors in the probability estimates. In practice, increasing the order of the n-gram model can be used to increase the context taken into account, thus increasing the model's accuracy.
 
-
+### 11. What are the most common word embedding methods? explain each briefly. [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
+Common word embedding methods include:
+* Count-based methods: Create embeddings by counting the co-occurrence of words in a corpus. Example: Latent Semantic Analysis (LSA)
+* Prediction-based methods: Create embeddings by training a model to predict a target word based on its surrounding context. Example: Continuous Bag-of-Words (CBOW)
+* Hybrid methods: Combine both co-occurrence and context to generate embeddings. Example: GloVe (Global Vectors for Word Representation)
+* Neural Language Model based methods: Create embeddings by training a neural network-based language model on a large corpus of text. Example: BERT (Bidirectional Encoder Representations from Transformers)
 
