@@ -1,4 +1,4 @@
-# Natural Language Processing Interview Questions
+# NLP Interview Questions
 A collection of technical interview questions for machine learning and computer vision engineering positions.
 
 The answer to all of these question were generated using ChatGPT!
@@ -41,6 +41,13 @@ There are a few different approaches that can be used for part-of-speech (POS) t
 An n-gram model is a type of statistical language model used in NLP. It is based on the idea that the probability of a word in a sentence is dependent on the probability of the n-1 preceding words, where n is the number of words in the gram.
 
 The model represents the text as a sequence of n-grams, where each n-gram is a sequence of n words. The model uses the frequency of each n-gram in a large corpus of text to estimate the probability of each word in a sentence, based on the n-1 preceding words.
+
+### 7. Explain how TF-IDF measures word importance. [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
+TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure used to evaluate the importance of a word in a document or collection of documents. It is calculated as the product of the term frequency (TF) and the inverse document frequency (IDF) of a word.
+
+The term frequency (TF) of a word is the number of times the word appears in a document, normalized by the total number of words in the document.
+
+The inverse document frequency (IDF) of a word is the logarithm of the total number of documents in the corpus divided by the number of documents in which the word appears.
 
 
 
