@@ -90,3 +90,18 @@ Common word embedding methods include:
 * Splitting the data: Divide the data into training, validation and testing sets.
 
 * Annotating the data: Manually tag the data with relevant information. Specific methods include: POS tagging, NER tagging, and so on.
+
+### 13. List a few types of linguistic ambiguities. [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
+* Lexical ambiguity: A word has multiple meanings. Example: "bass" can refer to a type of fish or a low-frequency sound.
+
+* Syntactic ambiguity: A sentence can be parsed in more than one way. Example: "I saw the man with the telescope" can mean that the speaker saw a man who had a telescope or the speaker saw a man through a telescope.
+
+* Semantic ambiguity: A word or phrase can have more than one meaning in a given context. Example: "bank" can refer to a financial institution or the edge of a river.
+
+* Pragmatic ambiguity: A sentence can have different interpretations depending on the speaker's intended meaning. Example: "I'm fine" can mean that the speaker is feeling well or that the speaker does not want to talk about their feelings.
+
+* Anaphora resolution: A pronoun or noun phrase refers to an antecedent with multiple possible referents.
+
+* Homonymy: Words that are written and pronounced the same but have different meanings. Example: "bass" as a type of fish and a low-frequency sound
+
+* Polysemy: words that have multiple meanings but are related in some way. Example: "bass" as a low-frequency sound and the bass guitar.
