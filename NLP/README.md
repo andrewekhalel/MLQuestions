@@ -50,20 +50,23 @@ The term frequency (TF) of a word is the number of times the word appears in a d
 The inverse document frequency (IDF) of a word is the logarithm of the total number of documents in the corpus divided by the number of documents in which the word appears.
 
 
-### 8. What is perplexity used for?
+### 8. What is perplexity used for? [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
 Perplexity is a statistical measure used to evaluate the quality of a probability model, particularly language models. It is used to quantify the uncertainty of a model when predicting the next word in a sequence of words. The lower the perplexity, the better the model is at predicting the sequence of words. 
 
 Sure, here's the formula for perplexity in LaTeX format:
 
 Perplexity = $2^{H(D)}$
 
-$H(D) = - \frac{1}{N} \sum_{i=1}^{N} {log_2^{ P(w_i) }}$
+$H(D) = - \frac{1}{N} {\sum}_{i=1}^{N} {log_2^{ P(w_i) }}$
 
 $w_i$ = the i-th word in the sequence
 
 $N$ = the number of words in the sequence
 
 $P(w_i)$ = the probability of the i-th word according to the model
+
+### 9. What is Bag-of-Worrds model? [[src]](https://www.projectpro.io/article/nlp-interview-questions-and-answers/439)
+The bag-of-words model is a representation of text data where a text is represented as a bag (multiset) of its words, disregarding grammar and word order but keeping track of the frequency of each word. It is simple to implement and computationally efficient, but it discards grammatical information and word order, which can be important for some NLP tasks.
 
 
 
