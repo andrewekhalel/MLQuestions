@@ -50,4 +50,20 @@ The term frequency (TF) of a word is the number of times the word appears in a d
 The inverse document frequency (IDF) of a word is the logarithm of the total number of documents in the corpus divided by the number of documents in which the word appears.
 
 
+### 8. What is perplexity used for?
+Perplexity is a statistical measure used to evaluate the quality of a probability model, particularly language models. It is used to quantify the uncertainty of a model when predicting the next word in a sequence of words. The lower the perplexity, the better the model is at predicting the sequence of words. 
+
+Sure, here's the formula for perplexity in LaTeX format:
+
+Perplexity = $2^{H(D)}$
+
+$H(D) = - \frac{1}{N} \sum_{i=1}^{N} {log_2^{ P(w_i) }}$
+
+$w_i$ = the i-th word in the sequence
+
+$N$ = the number of words in the sequence
+
+$P(w_i)$ = the probability of the i-th word according to the model
+
+
 
