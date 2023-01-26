@@ -368,9 +368,10 @@ The biggest difference between the the output of UMAP when compared with t-SNE i
 It generates a pseudo random number based on the seed and there are some famous algorithm, please see below link for further information on this.
 [[src]](https://en.wikipedia.org/wiki/Linear_congruential_generator)
 
+#### 64) What is the difference between Bayesian vs frequentist statistics? [[src]](https://www.kdnuggets.com/2022/10/nlp-interview-questions.html)
 
-## Contributions
-Contributions are most welcomed.
- 1. Fork the repository.
- 2. Commit your *questions* or *answers*.
- 3. Open **pull request**.
+Frequentist statistics is a framework that focuses on estimating population parameters using sample statistics, and providing point estimates and confidence intervals.
+
+Bayesian statistics, on the other hand, is a framework that uses prior knowledge and information to update beliefs about a parameter or hypothesis, and provides probability distributions for parameters.
+
+The main difference is that Bayesian statistics incorporates prior knowledge and beliefs into the analysis, while frequentist statistics doesn't.
