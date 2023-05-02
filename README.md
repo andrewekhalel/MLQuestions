@@ -1,4 +1,7 @@
-<a href="https://www.buymeacoffee.com/khalel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+# Preparation Resources
+1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/41ZgI6C) by Larry Wasserman
+2. [Machine Learning](https://amzn.to/3LlYogR) by Tom Mitchell
+3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3NsvMoP) by Chip Huyen
 
 # Machine Learning Interview Questions
 A collection of technical interview questions for machine learning and computer vision engineering positions.
