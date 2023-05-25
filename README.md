@@ -335,6 +335,19 @@ The biggest difference between the the output of UMAP when compared with t-SNE i
 It generates a pseudo random number based on the seed and there are some famous algorithm, please see below link for further information on this.
 [[src]](https://en.wikipedia.org/wiki/Linear_congruential_generator)
 
+#### 64) Given that we want to evaluate the performance of 'n' different machine learning models on the same data, why would the following splitting mechanism be incorrect :
+```
+df = pd.DataFrame(...)
+rnd = np.random.rand(len(df))
+train = df[ rnd < 0.8 ]
+valid = df[ rnd >= 0.8 & rnd < 0.9 ]
+test = df[ rnd >= 0.9 ]
+```
+The rand() function orders the data differently each time it is run, so if we run the splitting mechanism again, the 80% of the rows we get will be different from the ones we got the first time it was run. This presents an issue as we need to compare the performance of our models on the same test set. In order to ensure reproducible and consistent sampling we would have to set the random seed in advance or store the data once it is split. Alternatively, we could simply set the 'random_state' parameter in sklearn's train_test_split() function in order to get the same train, validation and test sets across different executions. 
+
+[[src]](https://towardsdatascience.com/why-do-we-set-a-random-state-in-machine-learning-models-bb2dc68d8431#:~:text=In%20Scikit%2Dlearn%2C%20the%20random,random%20state%20instance%20from%20np.)
+
+
 
 ## Contributions
 Contributions are most welcomed.
