@@ -337,11 +337,26 @@ It generates a pseudo random number based on the seed and there are some famous 
 
 #### 64) Given that we want to evaluate the performance of 'n' different machine learning models on the same data, why would the following splitting mechanism be incorrect :
 ```
-df = pd.DataFrame(...)
-rnd = np.random.rand(len(df))
-train = df[ rnd < 0.8 ]
-valid = df[ rnd >= 0.8 & rnd < 0.9 ]
-test = df[ rnd >= 0.9 ]
+def get_splits():
+    df = pd.DataFrame(...)
+    rnd = np.random.rand(len(df))
+    train = df[ rnd < 0.8 ]
+    valid = df[ rnd >= 0.8 & rnd < 0.9 ]
+    test = df[ rnd >= 0.9 ]
+
+    return train, valid, test
+
+#Model 1
+
+from sklearn.tree import DecisionTreeClassifier
+train, valid, test = get_splits()
+...
+
+#Model 2
+
+from sklearn.linear_model import LogisticRegression
+train, valid, test = get_splits()
+...
 ```
 The rand() function orders the data differently each time it is run, so if we run the splitting mechanism again, the 80% of the rows we get will be different from the ones we got the first time it was run. This presents an issue as we need to compare the performance of our models on the same test set. In order to ensure reproducible and consistent sampling we would have to set the random seed in advance or store the data once it is split. Alternatively, we could simply set the 'random_state' parameter in sklearn's train_test_split() function in order to get the same train, validation and test sets across different executions. 
 
