@@ -4,7 +4,6 @@
 3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3NsvMoP) by Chip Huyen
 
 # Machine Learning Interview Questions
-A collection of technical interview questions for machine learning and computer vision engineering positions.
 
 #### 1) What's the trade-off between bias and variance? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
@@ -40,6 +39,8 @@ The obvious *disadvantage* of **ridge** regression, is model interpretability. I
 [[Answer]](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c)
 
 #### 7) Why is ReLU better and more often used than Sigmoid in Neural Networks? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
+Sigmoid activation saturates(gradients close to 0) quickly with slighly higher or lower inputs leading to vanishing gradients.
+
 Imagine a network with random initialized weights ( or normalised ) and almost 50% of the network yields 0 activation because of the characteristic of ReLu ( output 0 for negative values of x ). This means a fewer neurons are firing ( sparse activation ) and the network is lighter. [[src]](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
 
 
