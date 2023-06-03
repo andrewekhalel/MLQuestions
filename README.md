@@ -375,3 +375,9 @@ Frequentist statistics is a framework that focuses on estimating population para
 Bayesian statistics, on the other hand, is a framework that uses prior knowledge and information to update beliefs about a parameter or hypothesis, and provides probability distributions for parameters.
 
 The main difference is that Bayesian statistics incorporates prior knowledge and beliefs into the analysis, while frequentist statistics doesn't.
+## Contributions
+Contributions are most welcomed.
+ 1. Fork the repository.
+ 2. Commit your *questions* or *answers*.
+ 3. Open **pull request**.
+ 
