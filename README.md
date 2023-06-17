@@ -1,10 +1,7 @@
-# Preparation Resources
-1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/41ZgI6C) by Larry Wasserman
-2. [Machine Learning](https://amzn.to/3LlYogR) by Tom Mitchell
-3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3NsvMoP) by Chip Huyen
-
-# Machine Learning Interview Questions
+# 65 Machine Learning Interview Questions 2023
 A collection of technical interview questions for machine learning and computer vision engineering positions.
+
+### Recently added: [Natural Language Processing (NLP) Interview Questions 2023](https://github.com/andrewekhalel/MLQuestions/tree/master/NLP)
 
 #### 1) What's the trade-off between bias and variance? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
@@ -413,3 +410,7 @@ Contributions are most welcomed.
  2. Commit your *questions* or *answers*.
  3. Open **pull request**.
  
+## Preparation Resources
+1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/41ZgI6C) by Larry Wasserman
+2. [Machine Learning](https://amzn.to/3LlYogR) by Tom Mitchell
+3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3NsvMoP) by Chip Huyen
