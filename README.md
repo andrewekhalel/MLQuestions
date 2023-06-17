@@ -1,4 +1,7 @@
-<a href="https://www.buymeacoffee.com/khalel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+# Preparation Resources
+1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/41ZgI6C) by Larry Wasserman
+2. [Machine Learning](https://amzn.to/3LlYogR) by Tom Mitchell
+3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3NsvMoP) by Chip Huyen
 
 # Machine Learning Interview Questions
 A collection of technical interview questions for machine learning and computer vision engineering positions.
@@ -368,13 +371,41 @@ The biggest difference between the the output of UMAP when compared with t-SNE i
 It generates a pseudo random number based on the seed and there are some famous algorithm, please see below link for further information on this.
 [[src]](https://en.wikipedia.org/wiki/Linear_congruential_generator)
 
-#### 64) What is the difference between Bayesian vs frequentist statistics? [[src]](https://www.kdnuggets.com/2022/10/nlp-interview-questions.html)
+#### 64) Given that we want to evaluate the performance of 'n' different machine learning models on the same data, why would the following splitting mechanism be incorrect :
+```
+def get_splits():
+    df = pd.DataFrame(...)
+    rnd = np.random.rand(len(df))
+    train = df[ rnd < 0.8 ]
+    valid = df[ rnd >= 0.8 & rnd < 0.9 ]
+    test = df[ rnd >= 0.9 ]
 
+    return train, valid, test
+
+#Model 1
+
+from sklearn.tree import DecisionTreeClassifier
+train, valid, test = get_splits()
+...
+
+#Model 2
+
+from sklearn.linear_model import LogisticRegression
+train, valid, test = get_splits()
+...
+```
+The rand() function orders the data differently each time it is run, so if we run the splitting mechanism again, the 80% of the rows we get will be different from the ones we got the first time it was run. This presents an issue as we need to compare the performance of our models on the same test set. In order to ensure reproducible and consistent sampling we would have to set the random seed in advance or store the data once it is split. Alternatively, we could simply set the 'random_state' parameter in sklearn's train_test_split() function in order to get the same train, validation and test sets across different executions. 
+
+[[src]](https://towardsdatascience.com/why-do-we-set-a-random-state-in-machine-learning-models-bb2dc68d8431#:~:text=In%20Scikit%2Dlearn%2C%20the%20random,random%20state%20instance%20from%20np.)
+
+
+#### 65) What is the difference between Bayesian vs frequentist statistics? [[src]](https://www.kdnuggets.com/2022/10/nlp-interview-questions.html)
 Frequentist statistics is a framework that focuses on estimating population parameters using sample statistics, and providing point estimates and confidence intervals.
 
 Bayesian statistics, on the other hand, is a framework that uses prior knowledge and information to update beliefs about a parameter or hypothesis, and provides probability distributions for parameters.
 
 The main difference is that Bayesian statistics incorporates prior knowledge and beliefs into the analysis, while frequentist statistics doesn't.
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
