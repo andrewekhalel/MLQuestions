@@ -411,6 +411,6 @@ Contributions are most welcomed.
  3. Open **pull request**.
  
 ## Preparation Resources
-1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/41ZgI6C) by Larry Wasserman
-2. [Machine Learning](https://amzn.to/3LlYogR) by Tom Mitchell
-3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3NsvMoP) by Chip Huyen
+1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/3r87WGa) by Larry Wasserman
+2. [Machine Learning](https://amzn.to/3RdiFK3) by Tom Mitchell
+3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3LiVgD2) by Chip Huyen
