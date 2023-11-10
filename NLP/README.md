@@ -57,7 +57,7 @@ Sure, here's the formula for perplexity in LaTeX format:
 
 Perplexity = $2^{H(D)}$
 
-$H(D) = - \frac{1}{N} {\sum}_{i=1}^{N} {log_2^{ P(w_i) }}$
+$H(D) = - {\sum}_{i=1}^{N} {P(w_i)log_2{ P(w_i) }}$ [ref](https://en.wikipedia.org/wiki/Perplexity) 
 
 $w_i$ = the i-th word in the sequence
 
