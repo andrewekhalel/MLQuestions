@@ -404,6 +404,13 @@ Bayesian statistics, on the other hand, is a framework that uses prior knowledge
 
 The main difference is that Bayesian statistics incorporates prior knowledge and beliefs into the analysis, while frequentist statistics doesn't.
 
+### 66) What is the basic difference between LSTM and Transformers? [[src]](https://blog.finxter.com/transformer-vs-lstm/#:~:text=LSTM%20models%20consist%20of%20RNN,feed-forward%20neural%20network%20components.)
+LSTMs (Long Short Term Memory) models consist of RNN cells designed to store and manipulate information across time steps more efficiently. In contrast, Transformer models contain a stack of encoder and decoder layers, each consisting of self attention and feed-forward neural network components. 
+
+### 66) What are RCNNs? [[src]](https://towardsdatascience.com/learn-rcnns-with-this-toy-dataset-be19dce380ec)
+Recurrent Convolutional model is a model that is specially designed to make predictions using a sequence of images (more commonly also know as video). These models are used in object detection tasks in computer vision. The RCNN approach combines both region proposal techniques and convolutional neural networks (CNNs) to identify and locate objects within an image.
+
+
 ## Contributions
 Contributions are most welcomed.
  1. Fork the repository.
