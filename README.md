@@ -1,7 +1,16 @@
-# 65 Machine Learning Interview Questions 2023
+# 65 Machine Learning Interview Questions 2024
 A collection of technical interview questions for machine learning and computer vision engineering positions.
 
-### Recently added: [Natural Language Processing (NLP) Interview Questions 2023](https://github.com/andrewekhalel/MLQuestions/tree/master/NLP)
+### Recently added: [Natural Language Processing (NLP) Interview Questions 2024](https://github.com/andrewekhalel/MLQuestions/tree/master/NLP)
+
+## Preparation Resources
+1. [ML Engineer Interview Course](https://www.tryexponent.com/courses/ml-engineer?ref=zjgwmje&tap_s=5026306-8f044e)
+1. [Mock ML Interview](https://www.tryexponent.com/coaching?ref=zjgwmje&tap_s=5026306-8f044e&category=mock_interviews&src=nav&skill=ml): Get ready for your next interview by practicing with ML engineers from top tech companies and startups.
+1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/3r87WGa) by Larry Wasserman
+2. [Machine Learning](https://amzn.to/3RdiFK3) by Tom Mitchell
+3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3LiVgD2) by Chip Huyen
+
+## Questions
 
 #### 1) What's the trade-off between bias and variance? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
 
@@ -416,8 +425,3 @@ Contributions are most welcomed.
  1. Fork the repository.
  2. Commit your *questions* or *answers*.
  3. Open **pull request**.
- 
-## Preparation Resources
-1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/3r87WGa) by Larry Wasserman
-2. [Machine Learning](https://amzn.to/3RdiFK3) by Tom Mitchell
-3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3LiVgD2) by Chip Huyen

@@ -1,4 +1,4 @@
-# 13 NLP Interview Questions 2023
+# 13 NLP Interview Questions 2024
 A collection of technical interview questions for machine learning and natural language processing positions.
 
 The answer to all of these question were generated using ChatGPT!
