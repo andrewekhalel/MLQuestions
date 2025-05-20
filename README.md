@@ -10,6 +10,13 @@ A collection of technical interview questions for machine learning and computer 
 2. [Machine Learning](https://amzn.to/3RdiFK3) by Tom Mitchell
 3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3LiVgD2) by Chip Huyen
 
+---
+This page is sponsored by [Jobbyo](https://jobbyo.ai/?linkId=lp_801223&sourceId=akhalel&tenantId=jobbyoai):
+<p style="text-align:center; font-style:italic;">"If you’re focused on interview prep, let <a href="https://jobbyo.ai/?linkId=lp_801223&sourceId=akhalel&tenantId=jobbyoai">Jobbyo</a> handle the busywork of applying.
+It automates applications and keeps your job search organized while you stay sharp"</p>
+
+Use promo code "MLQUESTIONS" at checkout to get 20% off your Premium subscription for 3 months!
+
 ## Questions
 
 #### 1) What's the trade-off between bias and variance? [[src](http://houseofbots.com/news-detail/2849-4-data-science-and-machine-learning-interview-questions)]
