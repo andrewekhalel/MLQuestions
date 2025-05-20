@@ -12,7 +12,7 @@ A collection of technical interview questions for machine learning and computer 
 
 ---
 This page is sponsored by [Jobbyo](https://jobbyo.ai/?linkId=lp_801223&sourceId=akhalel&tenantId=jobbyoai):
-<p style="text-align:center; font-style:italic;">"If you’re focused on interview prep, let <a href="https://jobbyo.ai/?linkId=lp_801223&sourceId=akhalel&tenantId=jobbyoai">Jobbyo</a> handle the busywork of applying.
+<p align=center style="font-style:italic;">"If you’re focused on interview prep, let <a href="https://jobbyo.ai/?linkId=lp_801223&sourceId=akhalel&tenantId=jobbyoai">Jobbyo</a> handle the busywork of applying.
 It automates applications and keeps your job search organized while you stay sharp"</p>
 
 Use promo code "MLQUESTIONS" at checkout to get 20% off your Premium subscription for 3 months!
