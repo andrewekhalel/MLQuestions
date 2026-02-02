@@ -426,6 +426,11 @@ LSTMs (Long Short Term Memory) models consist of RNN cells designed to store and
 ### 66) What are RCNNs? [[src]](https://towardsdatascience.com/learn-rcnns-with-this-toy-dataset-be19dce380ec)
 Recurrent Convolutional model is a model that is specially designed to make predictions using a sequence of images (more commonly also know as video). These models are used in object detection tasks in computer vision. The RCNN approach combines both region proposal techniques and convolutional neural networks (CNNs) to identify and locate objects within an image.
 
+### 67) Explain Linear Regression, Logistic Regression, Decision Tree and Random Forest.? [[src]](https://medium.com/@nirajan_DataAnalyst/machine-learning-interview-questions-836387341559)
+- Linear Regression: It predicts a continuous output based on input features, assuming a linear relationship between them. Example: Predicting house prices based on features like size, location, and number of bedrooms.
+- Logistic Regression: It is used for binary classification, estimating the probability of an event occurring. Example: Predicting whether a customer will churn based on their behavior.
+- Decision Tree: Hierarchical tree-like structure for classification and regression tasks, dividing data based on feature values. Example: Predicting whether a loan applicant is high, medium, or low risk based on income, credit score, and other factors.
+
 
 ## Contributions
 Contributions are most welcomed.
