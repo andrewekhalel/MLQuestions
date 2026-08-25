@@ -1,0 +1,49 @@
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - README.md
+      - NLP/README.md
+      - scripts/build_site.py
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install markdown
+      - name: Build site
+        # Set the SITE_URL repository variable if you move to a custom domain.
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python3 scripts/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
