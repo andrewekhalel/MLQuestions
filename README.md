@@ -33,8 +33,8 @@ These ML interview questions are useful if you are preparing for a role as:
 - [Contributions](#contributions)
 
 ## Preparation Resources
-1. [ML Engineer Interview Course](https://www.tryexponent.com/courses/ml-engineer?ref=zjgwmje&tap_s=5026306-8f044e)
-1. [Mock ML Interview](https://www.tryexponent.com/coaching?ref=zjgwmje&tap_s=5026306-8f044e&category=mock_interviews&src=nav&skill=ml): Get ready for your next interview by practicing with ML engineers from top tech companies and startups.
+1. [ML Engineer Interview Course](https://www.aced.io/courses/ml-engineer?ref=zjgwmje&tap_s=5026306-8f044e)
+1. [Mock ML Interview](https://www.aced.io/coaching?ref=zjgwmje&tap_s=5026306-8f044e&category=mock_interviews&src=nav&skill=ml): Get ready for your next interview by practicing with ML engineers from top tech companies and startups.
 1. [AI Engineering Interview Prep](https://www.aced.io/courses/ai-engineering?ref=zjgwmje&tap_s=5026306-8f044e)
 1. [Generative AI Interviews](https://www.aced.io/courses/gen-ai-interviews?ref=zjgwmje&tap_s=5026306-8f044e)
 1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/3r87WGa) by Larry Wasserman
