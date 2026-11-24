@@ -33,10 +33,13 @@ These ML interview questions are useful if you are preparing for a role as:
 - [Contributions](#contributions)
 
 ## Preparation Resources
-1. [ML Engineer Interview Course](https://www.aced.io/courses/ml-engineer?ref=zjgwmje&tap_s=5026306-8f044e)
-1. [Mock ML Interview](https://www.aced.io/coaching?ref=zjgwmje&tap_s=5026306-8f044e&category=mock_interviews&src=nav&skill=ml): Get ready for your next interview by practicing with ML engineers from top tech companies and startups.
-1. [AI Engineering Interview Prep](https://www.aced.io/courses/ai-engineering?ref=zjgwmje&tap_s=5026306-8f044e)
-1. [Generative AI Interviews](https://www.aced.io/courses/gen-ai-interviews?ref=zjgwmje&tap_s=5026306-8f044e)
+
+> 🎉 **Black Friday:** Get 40% off all aced.io interview prep with code **CYBER40** — offer ends Dec 2nd.
+
+1. [ML Engineer Interview Course](https://www.aced.io/courses/ml-engineer?ref=zjgwmje&tap_s=5026306-8f044e&promo_code=CYBER40)
+1. [Mock ML Interview](https://www.aced.io/coaching?ref=zjgwmje&tap_s=5026306-8f044e&category=mock_interviews&src=nav&skill=ml&promo_code=CYBER40): Get ready for your next interview by practicing with ML engineers from top tech companies and startups.
+1. [AI Engineering Interview Prep](https://www.aced.io/courses/ai-engineering?ref=zjgwmje&tap_s=5026306-8f044e&promo_code=CYBER40)
+1. [Generative AI Interviews](https://www.aced.io/courses/gen-ai-interviews?ref=zjgwmje&tap_s=5026306-8f044e&promo_code=CYBER40)
 1. [All of Statistics: A Concise Course in Statistical Inference](https://amzn.to/3r87WGa) by Larry Wasserman
 2. [Machine Learning](https://amzn.to/3RdiFK3) by Tom Mitchell
 3. [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://amzn.to/3LiVgD2) by Chip Huyen
